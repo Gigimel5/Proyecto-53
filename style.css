@@ -1,0 +1,64 @@
+html, body {
+  background-color: rgba(29, 116, 188, 0.484);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+img{
+  width: 300px;
+}
+canvas{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  border: 2px solid black;
+}
+h1{
+  font-size: medium;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+.cabeza{
+  
+  background-color: rgb(135, 255, 229);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: flex-end;
+}
+
+img:hover{
+  opacity:0.33;
+}
+
+*{
+  border: 1px solid;
+}
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.grid:img{
+  width:"250px";
+  height:"300px";
+}
+body{
+  background-image: url("fondo.jpg");
+}
+.footer{
+  background-color: rgb(149, 255, 0);
+  display: flex;
+  justify-content: center;
+
+}
+.cabeza{
+  border-style: groove;
+  padding: 3%;
+}
+a{
+  margin-right: 4%;
+  margin-left: 3%;
+  margin-top: 10px;
+  border-style: dotted;
+  padding-top: 10px; 
+}
